@@ -6,7 +6,7 @@
 
 I personally believe that all it takes to resolve the issues we currently face on our beautiful planet is to help grow awareness.
 
-> This book is written like "source code" and needs to be expanded upon, this also only a start, we would like to invite everyone to contribute and give their remarks.
+> This book is written like 'source code' and represents only the beginning of a longer journey. It contains many ideas that need further expansion. We warmly invite everyone to contribute, share their insights, and provide remarks.
 
 ## Our world is standing at a crossroads.
 
