@@ -10,9 +10,11 @@ Awareness is all it takes to resolve all issues we face right now on our beautif
 
 ## Our world is standing at a crossroads.
 
-Leaders of countries are like travelers at this crossroads, and they often find it hard to choose the right path. There are voices around them, whispering in their ears, telling them which way to go. Some of these voices are kind and wise, caring for the land and the people. But some voices are driven by greed. They don't care about the fields or the forests; they only care about what they can take for themselves.
+Leaders of countries are like travelers at this crossroads, and they often find it hard to choose the right path. There are voices around them, whispering in their ears, telling them which way to go. Some of these voices are kind and wise, caring for the land and the people. But some voices are driven by greed or fear. 
 
-These greedy voices are loud, and they make it hard for leaders to hear their own hearts. They make it hard for leaders to choose the path that is good for the earth and for the people.
+These voices, don't care about the fields or the forests; some care about what they can take for themselves, others are mainly driven by fear and they believe aggression might be a necessary evil.
+
+These greedy or angry voices are loud, and they make it hard for leaders to hear their own hearts. They make it hard for leaders to choose the path that is good for the earth and for the people.
 
 We hope this book can be like a gentle breeze. It wants to carry the voices of hope and wisdom from mother earth and its residents to its leaders and governments. 
 
