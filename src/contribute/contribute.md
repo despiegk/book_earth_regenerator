@@ -1,4 +1,4 @@
-i![](img/contribute_world.png)
+![](img/contribute_world.png)
 
 # Contribute
 
