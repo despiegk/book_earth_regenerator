@@ -4,7 +4,7 @@
 
 # Introduction: A World at the Crossroads
 
-Awareness is all it takes to resolve all issues we face right now on our beautiful planet.
+I personally believe, all it takes to resolve the issues we currently face on our beautiful planet is help to grow awareness.
 
 > This book is written like "source code" and needs to be expanded upon, this also only a start, we would like to invite everyone to contribute and give their remarks.
 
