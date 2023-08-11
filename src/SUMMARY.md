@@ -13,6 +13,7 @@
   - [Currencies of the Future](money/currencies_future.md)
   - [Regenerative City Simulator](solutions/regenerative_city_simulator.md)
 - [Inspiration](inspiration/inspiration.md)
+  - [Bernard Lietaer](inspiration/bernard_lietaer.md)
   - [Four Horsemen](inspiration/four_horsemen.md)
   - [Century of self](inspiration/century_of_self.md)
 - [Follow](contribute/follow.md)
