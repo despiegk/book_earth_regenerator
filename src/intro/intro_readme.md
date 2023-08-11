@@ -4,7 +4,7 @@
 
 # Introduction: A World at the Crossroads
 
-I personally believe, all it takes to resolve the issues we currently face on our beautiful planet is help to grow awareness.
+I personally believe that all it takes to resolve the issues we currently face on our beautiful planet is to help grow awareness.
 
 > This book is written like "source code" and needs to be expanded upon, this also only a start, we would like to invite everyone to contribute and give their remarks.
 
@@ -12,7 +12,7 @@ I personally believe, all it takes to resolve the issues we currently face on ou
 
 Leaders of countries are like travelers at this crossroads, and they often find it hard to choose the right path. There are voices around them, whispering in their ears, telling them which way to go. Some of these voices are kind and wise, caring for the land and the people. But some voices are driven by greed or fear. 
 
-These voices, don't care about the fields or the forests; some care about what they can take for themselves, others are mainly driven by fear and they believe aggression might be a necessary evil.
+These voices don't care about the fields or the forests. Some are concerned only with what they can take for themselves, while others are mainly driven by fear, believing that aggression might be a necessary evil.
 
 These greedy or angry voices are loud, and they make it hard for leaders to hear their own hearts. They make it hard for leaders to choose the path that is good for the earth and for the people.
 
