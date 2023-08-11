@@ -17,5 +17,7 @@ It has been created in the following way
 
 It was amazing to see how far we got though in a short time.
 
+The source of all of this is on [a google drive](https://drive.google.com/drive/folders/1kIX8Gq2oPaQ6u9OqWkNxVLHdVfc9HSTP?usp=sharing). It include the original voice recordings.
+
 > This book is written in a very dense form like source code, there are lots of concepts in side which will need more expansion. The book might be hard to read as such.
 
