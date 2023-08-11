@@ -1,6 +1,6 @@
-# Slaves of a Financial System
 
 ![](img/money_slaves.png)
+
 
 # We are trapped within a dysfunctional financial system.
 

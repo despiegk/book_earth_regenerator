@@ -1,7 +1,7 @@
-# Money is a taboo
 
 ![](img/money_taboo.png)
 
+# Money is a taboo
 
 Strangely, for something so integral to our daily lives, money is a taboo topic for most. The average person tends to know surprisingly little about how money really works, especially in the context of the banking system. 
 

@@ -1,7 +1,9 @@
 
-# The Regenerative City Simulator: A Blueprint for Future Communities
 
 ![](img/simulator_city.png)
+
+
+# The Regenerative City Simulator: A Blueprint for Future Communities
 
 In the quest for sustainability and regeneration, the idea of modeling our societies offers a fascinating glimpse into the future. But can we go beyond mere theories and hypotheticals to create a working simulation of a regenerative society? That's the question driving the concept of the regenerative city simulator.
 

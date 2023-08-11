@@ -1,6 +1,8 @@
-# The Role of Corruption: A Global Dilemma
 
 ![](img/corruption.png)
+
+# The Role of Corruption: A Global Dilemma
+
 
 Corruption is more than just a buzzword; it's a pervasive issue that impacts societies across the globe. Far from being limited to specific regions or cultures, corruption has become a universal problem, undermining the very foundations of good governance.
 

@@ -1,7 +1,8 @@
 
-# Introduction: A World at the Crossroads
 
 ![](img/new_world.png)
+
+# Introduction: A World at the Crossroads
 
 Awareness is all it takes to resolve all issues we face right now on our beautiful planet.
 

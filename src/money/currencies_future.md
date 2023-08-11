@@ -1,6 +1,7 @@
-# Currencies of the Future
 
 ![](img/money_future.png)
+
+# Currencies of the Future
 
 Bernard Lietaer, a notable expert on money, once told me, "Change the nature of money and you change the world." And I truly believe him.
 

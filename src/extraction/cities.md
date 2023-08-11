@@ -1,6 +1,7 @@
-# Regenerative Cities
 
 ![](img/new_city.png)
+
+# Regenerative Cities
 
 ## Cities: A Reevaluation. 
 

@@ -1,8 +1,8 @@
-# Regenerate Mother Earth
+
 
 ![](img/regenerate_earth.png)
 
-# Mother Earth
+# Regenerate Mother Earth
 
 Mother Earth is generous, nurturing, and unconditionally giving. She offers us everything we need to sustain life, from the fertile soil that grows our food to the fresh water that quenches our thirst. Yet, we find ourselves at a critical crossroads in our relationship with her. Our approach to using her resources has become one of extraction, domination, and short-term gain. In our haste to take what we want, we are neglecting to honor the delicate balance that sustains us.
 
