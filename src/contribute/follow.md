@@ -2,7 +2,7 @@
 
 # Follow
 
-If you like to follow what I am working on please choin my channel:
+If you like to follow what I am working on please join my channel:
 
 > [https://t.me/greenkristof](https://t.me/greenkristof)
 
