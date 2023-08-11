@@ -109,7 +109,7 @@ This complex and sometimes terrifying game of money reveals a global landscape f
 
 Imagine money as a tool, not a trap. Today, many of us see it as a dark force that controls our lives, making the rich richer and leaving the rest of us behind. It's like we're caught in a never-ending cycle, chasing something that always seems just out of reach.
 
-But what if we could change that? What if money could be something beautiful, a symbol of our energy, our time, our dreams? My friend Bernard Littard once shared a simple but profound idea with me: "Change the nature of money, and you change everything."
+But what if we could change that? What if money could be something beautiful, a symbol of our energy, our time, our dreams? My friend Bernard Lietaer once shared a simple but profound idea with me: "Change the nature of money, and you change everything."
 
 It's time for us to take back control and redefine what money means to us. Instead of being slaves to a system that only benefits a few, let's create a future where money supports our communities, our projects, and our shared goals.
 
