@@ -8,12 +8,12 @@ This book is being co-created on a github repository:
 
 It has been created in the following way
 
-- voice recording
-- transcryption with a tool called descript
-- fixing of the transcrypt
-- training an AI system on writing style
-- feed parts of each transcryption and fix
-- generate images with imagejourney, some skill required to get it going (-:
+- Voice recording
+- Transcription with a tool called Descript
+- Fixing the transcript
+- Training an AI system on a writing style
+- Feeding parts of each transcription and fixing them
+- Generating images with ImageJourney, though some skill is required to get it going (-:)
 
 It was amazing to see how far we got though in a short time.
 
