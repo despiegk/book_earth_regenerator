@@ -14,3 +14,5 @@
   - [Regenerate City Simulator](solutions/regenerative_city_simulator.md)
 - [Follow](contribute/follow.md)
 - [Contribute](contribute/contribute.md)
+- [Inspiration](inspiration/inspiration.md)
+  - [Four Horsemen](inspiration/four_horsemen.md)
