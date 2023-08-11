@@ -11,7 +11,7 @@
 - [Solutions](solutions/solutions.md)
   - [Regenerate Mother Earth](solutions/regenerate_earth.md)
   - [Currencies of the Future](money/currencies_future.md)
-  - [Regenerate City Simulator](solutions/regenerative_city_simulator.md)
+  - [Regenerative City Simulator](solutions/regenerative_city_simulator.md)
 - [Inspiration](inspiration/inspiration.md)
   - [Four Horsemen](inspiration/four_horsemen.md)
   - [Century of self](inspiration/century_of_self.md)
