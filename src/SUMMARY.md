@@ -16,3 +16,4 @@
 - [Contribute](contribute/contribute.md)
 - [Inspiration](inspiration/inspiration.md)
   - [Four Horsemen](inspiration/four_horsemen.md)
+  - [Century of self](inspiration/century_of_self.md)
