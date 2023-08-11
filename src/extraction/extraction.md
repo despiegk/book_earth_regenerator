@@ -3,5 +3,5 @@
 
 # Stop Extraction
 
-- [Regenerative Cities](extraction/cities.md)
-- [Stop Corruption](extraction/corruption.md)
+- [Regenerative Cities](cities.md)
+- [Stop Corruption](corruption.md)

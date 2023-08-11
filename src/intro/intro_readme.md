@@ -6,7 +6,7 @@
 
 Awareness is all it takes to resolve all issues we face right now on our beautiful planet.
 
-> This book is written like "source code" and needs to be expanded upon, this also only a start, we would like to invite everyone contribute and give their remarks.
+> This book is written like "source code" and needs to be expanded upon, this also only a start, we would like to invite everyone to contribute and give their remarks.
 
 ## Our world is standing at a crossroads.
 
@@ -37,3 +37,7 @@ Together, we'll explore these topics, guided by the values of caring for our pla
 This is our journey, and we invite you to walk with us.
 
 With this book our attempt is to set the stage for an exploration of the complex and essential themes that guide our world today. We recognize the challenges, but also sow the seeds of hope and shared values.
+
+
+> This book is written in a very dense form like source code, there are lots of concepts in side which will need more expansion. The book might be hard to read as such.
+

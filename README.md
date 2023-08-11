@@ -1,6 +1,6 @@
 # Book Earth Regenerator
 
-> see https://despiegk.github.io/book_earth_regenerator/
+> see https://despiegk.github.io/book_earth_regenerator/intro/intro_readme.html
 
 ## To Develop 
 
