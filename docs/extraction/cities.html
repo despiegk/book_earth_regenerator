@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Regenerative Cities - Earth Regenerator</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item "><a href="../intro/intro_readme.html">Introduction</a></li><li class="chapter-item "><a href="../money/money.html">Money</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../money/money_is_taboo.html">Money is a Taboo</a></li><li class="chapter-item "><a href="../money/financial_slaves.html">Slaves of a Financial System</a></li><li class="chapter-item "><a href="../money/usd_shortage.html">USD Shortage</a></li></ol></li><li class="chapter-item expanded "><a href="../extraction/extraction.html">Stop Extraction</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../extraction/cities.html" class="active">Regenerative Cities</a></li><li class="chapter-item "><a href="../extraction/corruption.html">Stop Corruption</a></li></ol></li><li class="chapter-item "><a href="../solutions/solutions.html">Solutions</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../solutions/regenerate_earth.html">Regenerate Mother Earth</a></li><li class="chapter-item "><a href="../money/currencies_future.html">Currencies of the Future</a></li><li class="chapter-item "><a href="../solutions/regenerative_city_simulator.html">Regenerate City Simulator</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Earth Regenerator</h1>
+
+                    <div class="right-buttons">
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="regenerative-cities"><a class="header" href="#regenerative-cities">Regenerative Cities</a></h1>
+<p><img src="img/new_city.png" alt="" /></p>
+<h2 id="cities-a-reevaluation"><a class="header" href="#cities-a-reevaluation">Cities: A Reevaluation.</a></h2>
+<p>The prevailing belief that large cities are the panacea to today's challenges is one I firmly reject. </p>
+<p>The construction of concrete-built cities, in my view, is not only unnecessary but actively harmful. </p>
+<p>They lead to widespread exploitation of nature's resources, and the immense scale makes it difficult for the average individual to find joy and prosperity. </p>
+<p>Such an urban environment fosters inequality, enhancing the power of the privileged while relegating the less fortunate to the city's outskirts, where life is a struggle.</p>
+<p>Could we not create a city of the future that addresses these issues? </p>
+<p>Perhaps, but the real question is, why pursue these oversized urban centers at all? We should instead be exploring smaller, more intimate communities. </p>
+<p>Imagine clusters of four, five hundred, or a thousand homes, living more akin to a tribal society. These more human-scaled environments would allow for real connections between people and foster relationships that endure. The shift away from the obsession with grand cities could pave the way for a more nurturing and sustainable way of life.</p>
+<h2 id="the-role-of-repution"><a class="header" href="#the-role-of-repution">The Role of Repution</a></h2>
+<p>One of the underlying advantages of smaller cities is the importance of reputation. </p>
+<p>In contrast, large cities, as well as today's digital societies, often lack this crucial element. </p>
+<p>People exploit anonymity, using interconnected systems to manipulate others and gain unfair advantages. </p>
+<p>Lies, ego-driven manipulations, and various other tactics are employed to place oneself above others. </p>
+<p>Unfortunately, this behavior has become commonplace on the internet, and large cities mirror this trend. </p>
+<p>The sheer size of these urban environments makes it virtually impossible to form meaningful connections with those around you. </p>
+<p>In the impersonal vastness, anonymity thrives, allowing individuals to act without accountability or integrity. </p>
+<p>Smaller cities, with their tighter-knit communities, reintroduce the essential role of reputation, fostering a more honest and relational way of living.</p>
+<h2 id="the-mousetrap"><a class="header" href="#the-mousetrap">The Mousetrap:</a></h2>
+<p>The design of modern cities often leads people into a trap, where they find themselves confined to their small apartments, paying exorbitant rents for a disconnected existence. </p>
+<p>These often too small living spaces become like mousetraps, isolating residents from the community and depriving them of true connections. </p>
+<p>Of course, there are exceptions - those fortunate few who earn enough to escape this cycle and perhaps lead a different life. But for many, the city's allure becomes a trap, limiting their opportunities to build relationships and live fully engaged lives.</p>
+<p>A Personal Example: I recall a time in my life when I was living in London, in a modest but still very expensive home. </p>
+<p>Our neighbors were caught in a relentless work cycle, laboring six days a week, sometimes up to 16 hours a day. They had a young daughter, but they barely had time to spend with her. The pressure to make ends meet in an expensive city like London drove them to these extremes. </p>
+<p>This rat race didn't make sense to me, and I realized it applied to more than just this family; it was a broader phenomenon. </p>
+<p>They were probably considered among the fortunate ones, with well-paying jobs, yet their lives were consumed with work and household chores. </p>
+<p>Their existence seemed a strange, joyless struggle to me, and I couldn't find happiness in that place. I eventually left and moved to a location closer to nature. </p>
+<p>I believe this experience isn't isolated; it reflects a common reality. In many cities, the cost of living becomes exorbitant, creating a pyramid where only those who earn enough can afford a decent quality of life. </p>
+<h2 id="do-we-need-large-cities"><a class="header" href="#do-we-need-large-cities">Do We Need Large Cities?</a></h2>
+<p>The argument for large cities may point to certain benefits of scale, but I find myself questioning this assumption. </p>
+<p>Is that really the case? In today's world, we have mobility, internet, collaboration tools, and video conferencing, which make it possible to work in a much more flexible and decentralized way. Many large cities were originally established to cater to the demands of industrialization and the need for extensive manufacturing facilities. </p>
+<p>These cities were designed to accommodate large numbers of workers, sometimes treating them almost like slaves. While this might still be partially true, it should not be the driving force behind creating areas where people coexist. Modern technology offers us the chance to rethink our living arrangements and question the necessity of concentrating so many people in one place.</p>
+<h2 id="sustainable-city-in-dubai"><a class="header" href="#sustainable-city-in-dubai">Sustainable City in Dubai</a></h2>
+<p>I firmly believe that there is an optimal size for a community. </p>
+<p>Reflecting on my time living in a sustainable city in Dubai, this concept became clear. Despite being a modest community of only 500 homes, it truly felt like a tight-knit community.</p>
+<p>In this city, people saw each other regularly, children played together, and there was even a touch of greenery amidst the desert landscape. Efforts were made to grow food, and there were unique aspects that brought the community together. Facilities were co-owned by residents, and some of the profits were redistributed, eliminating the need for monthly fees.</p>
+<p>This co-living experiment was seen as a huge success in Dubai's context. People were paying up to half of what they might have paid elsewhere, and the sense of belonging and community was far more enriching.</p>
+<p>But this was just the beginning. Even though it was built in the harsh and arid climate of Dubai, the project worked. Of course, it was far from perfect; the success of this community relied on the labor of people working for lower salaries. Yet, it was a positive experiment, and in my opinion, remains one of the best places to live in Dubai.</p>
+<p>What this experience taught me is that there is a right size for a community. Is it 500 homes? A thousand? Fewer? I can't say for sure. But I believe that with careful planning and simulation, an ideal community size can be determined to ensure a diverse and vibrant living experience.</p>
+<h2 id="what-do-we-need-in-the-modern-regenerative-city"><a class="header" href="#what-do-we-need-in-the-modern-regenerative-city">What Do We Need in the Modern Regenerative City?</a></h2>
+<p>In envisioning the modern regenerative city, we must consider a comprehensive approach that includes essential elements such as organic farming, permaculture, food forests, healthcare, education, and more. The city should be large enough to provide all that its inhabitants need but small enough to foster a sense of community.</p>
+<p>One crucial element in this type of society is reputation. Familiarity between residents is not just about comfort and neighborliness; it serves a functional purpose. When you purchase goods from people you know, seek their advice, or engage their services, you are more likely to receive quality products and information. Reputation drives up the standard of service and adds integrity to the community's fabric.</p>
+<p>Modern technology can amplify this effect. The internet, along with localized sources of information, can significantly enrich community life. This doesn't mean that everyone has to work within the community, but a substantial portion of residents could be employed locally, perhaps 50%, 60%, or even more if the community is large enough.</p>
+<p>Furthermore, having multiple regenerative communities in proximity to one another could facilitate easy commuting between them. Residents could find work in a neighboring community, and shared office spaces and collaborative environments could be established.</p>
+<p>In summary, the modern regenerative city should be a blend of sustainable practices, local connections, technological advancements, and strong community values. It's about creating a living environment that's both self-sufficient and interconnected, where the emphasis on reputation leads to higher quality services and a more satisfying, wholesome life for everyone involved.</p>
+<h2 id="a-possible-future-for-cities-a-vision-of-balance-and-harmony"><a class="header" href="#a-possible-future-for-cities-a-vision-of-balance-and-harmony">A Possible Future for Cities: A Vision of Balance and Harmony</a></h2>
+<p><strong>A future where</strong> we can construct communities that are thoughtfully scaled, striking the optimal balance between human occupation and natural integration. These communities would be large enough to thrive but not so sprawling that they disconnect us from the natural world.</p>
+<h3 id="respect-for-all"><a class="header" href="#respect-for-all">Respect for All</a></h3>
+<p>In this envisioned future, there would be profound respect for everyone living within the community. This could even extend to the introduction of local currencies to enhance local economic benefit.</p>
+<h3 id="connection-to-nature"><a class="header" href="#connection-to-nature">Connection to Nature</a></h3>
+<p>Children would be raised with a strong connection to nature, fostering a sense of freedom and exploration. Perhaps there could be communal food gardens, requiring citizens to participate in their cultivation. This not only promotes self-sufficiency but also maintains an essential connection with nature.</p>
+<h3 id="prosperity-for-all"><a class="header" href="#prosperity-for-all">Prosperity for All</a></h3>
+<p>We believe that such communities would lead to greater prosperity for everyone. Imagine a world with cleaner water and air, a quieter and more peaceful environment, and a stronger sense of connection with our surroundings.</p>
+<h3 id="the-impact-of-noise"><a class="header" href="#the-impact-of-noise">The Impact of Noise</a></h3>
+<p>We must not underestimate the negative effects of constant noise in traditional cities. Like pollution, the incessant sounds of urban life have a physical impact on our bodies. In our ideal future, reducing noise pollution would be an essential consideration.</p>
+<p>In conclusion, this vision represents more than a mere dream. It's a blueprint for creating environments that are more aligned with human needs and the natural world. By embracing these principles, we can work towards a future that nurtures both our communities and our planet.</p>
+<h2 id="conclusion"><a class="header" href="#conclusion">Conclusion</a></h2>
+<p>&quot;In conclusion, the pursuit of mega smart cities, while ambitious, may lead to suboptimal and disconnected communities. Instead of this centralized approach, we should look to nature and historical tribal communities for wisdom in crafting our urban landscapes. We believe that the future lies not in the construction of massive, impersonal cities, but in the development of sustainable, regenerative communities. These communities emphasize balance, connection, and well-being, offering a more promising and holistic path forward for everyone involved.&quot;</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../extraction/extraction.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../extraction/corruption.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../extraction/extraction.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../extraction/corruption.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../mermaid.min.js"></script>
+        <script src="../mermaid-init.js"></script>
+
+
+    </div>
+    </body>
+</html>

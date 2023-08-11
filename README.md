@@ -1,5 +1,7 @@
 # Book Earth Regenerator
 
+> see https://despiegk.github.io/book_earth_regenerator/
+
 ## To Develop 
 
 ### Requirements
@@ -16,9 +18,6 @@
 `make serve`
 
 will open the browser  
-
-### Browse docs
-
 
 ### Contribute
 

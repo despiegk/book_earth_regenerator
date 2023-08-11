@@ -1,3 +1,14 @@
 ## Earth Regenerator
 
 - [Introduction](intro/intro_readme.md)
+- [Money](money/money.md)
+  - [Money is a Taboo](money/money_is_taboo.md)
+  - [Slaves of a Financial System](money/financial_slaves.md)
+  - [USD Shortage](money/usd_shortage.md)
+- [Stop Extraction](extraction/extraction.md)
+  - [Regenerative Cities](extraction/cities.md)
+  - [Stop Corruption](extraction/corruption.md)
+- [Solutions](solutions/solutions.md)
+  - [Regenerate Mother Earth](solutions/regenerate_earth.md)
+  - [Currencies of the Future](money/currencies_future.md)
+  - [Regenerate City Simulator](solutions/regenerative_city_simulator.md)
