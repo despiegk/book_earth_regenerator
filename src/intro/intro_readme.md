@@ -41,5 +41,4 @@ This is our journey, and we invite you to walk with us.
 With this book our attempt is to set the stage for an exploration of the complex and essential themes that guide our world today. We recognize the challenges, but also sow the seeds of hope and shared values.
 
 
-> This book is written in a very dense form like source code, there are lots of concepts in side which will need more expansion. The book might be hard to read as such.
-
+> This book is written in a dense format, akin to source code, with numerous concepts packed inside that may require further explanation. As such, some readers might find the book challenging to read.
