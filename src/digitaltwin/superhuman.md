@@ -1,7 +1,7 @@
 
 ![](img/twin_happy_safetime.png)
 
-## Superhuman helps us to safe time.
+## Superhuman helps us to save time.
 
 What if we could all become superhuman in a digital sense? Through the creation of our digital twins, this concept might no longer be a mere fantasy but a tangible reality.
 
