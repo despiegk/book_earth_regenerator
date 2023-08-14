@@ -16,7 +16,7 @@
   - [Intro](digitaltwin/twin_intro.md)
   - [SuperHuman](digitaltwin/superhuman.md)
   - [Reserve Now](digitaltwin/twin_act_now.md)
-  - [Who are we?](digitaltwin/who_are_we.md)
+  - [About Us](digitaltwin/who_are_we.md)
 - [Inspiration](inspiration/inspiration.md)
   - [Bernard Lietaer](inspiration/bernard_lietaer.md)
   - [Four Horsemen](inspiration/four_horsemen.md)
