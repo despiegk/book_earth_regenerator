@@ -16,7 +16,7 @@ What could normally take you 20 or 30 minutes of back-and-forth coordination now
 
 ## Paying Money
 
-![](img/money.png)
+<!-- ![](img/money.png) -->
 
 A seamless, frictionless payment process is one of the straightforward yet impactful applications of using a digital twin. Imagine a situation where you've forgotten to pay your friend Rob and want to settle the debt. In today's world, that might involve several steps, such as finding out Rob's bank details, determining the currency, dealing with conversion rates if Rob is in another country, and navigating various banking platforms. 
 
