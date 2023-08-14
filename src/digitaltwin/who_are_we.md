@@ -9,9 +9,7 @@ Our team has built some of the world’s most advanced Internet and cloud techno
 
 ## We are value driven
 
-> Restore the commons through our self-sovereignity.
-
-## We believe the following 2 values include a lot
+> **Restore the commons through our self-sovereignity.**
 
 - **PLANET FIRST**: 
   - Our planet is our home, and its well-being is paramount. Every action we take must prioritize its benefit and sustainability. Nothing we do can come at the expense of Mother Earth.
