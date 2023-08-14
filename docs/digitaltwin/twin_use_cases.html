@@ -1,0 +1,299 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>User Journeys - Earth Regenerator</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item "><a href="../intro/intro_readme.html">Introduction</a></li><li class="chapter-item "><a href="../money/money.html">Money</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../money/money_is_taboo.html">Money is a Taboo</a></li><li class="chapter-item "><a href="../money/financial_slaves.html">Slaves of a Financial System</a></li><li class="chapter-item "><a href="../money/usd_shortage.html">USD Shortage</a></li></ol></li><li class="chapter-item "><a href="../extraction/extraction.html">Stop Extraction</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../extraction/cities.html">Regenerative Cities</a></li><li class="chapter-item "><a href="../extraction/corruption.html">Stop Corruption</a></li></ol></li><li class="chapter-item "><a href="../solutions/solutions.html">Solutions</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../solutions/regenerate_earth.html">Regenerate Mother Earth</a></li><li class="chapter-item "><a href="../money/currencies_future.html">Currencies of the Future</a></li><li class="chapter-item "><a href="../solutions/regenerative_city_simulator.html">Regenerative City Simulator</a></li></ol></li><li class="chapter-item expanded "><a href="../digitaltwin/twin_home.html">We are Superhuman</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../digitaltwin/twin_intro.html">Intro</a></li><li class="chapter-item "><a href="../digitaltwin/superhuman.html">SuperHuman</a></li><li class="chapter-item "><a href="../digitaltwin/twin_act_now.html">Reserve Now</a></li><li class="chapter-item "><a href="../digitaltwin/who_are_we.html">About Us</a></li><li class="chapter-item "><a href="../digitaltwin/how_does_it_work.html">How does it Work</a></li><li class="chapter-item expanded "><a href="../digitaltwin/twin_use_cases.html" class="active">User Journeys</a></li></ol></li><li class="chapter-item "><a href="../inspiration/inspiration.html">Inspiration</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../inspiration/bernard_lietaer.html">Bernard Lietaer</a></li><li class="chapter-item "><a href="../inspiration/four_horsemen.html">Four Horsemen</a></li><li class="chapter-item "><a href="../inspiration/century_of_self.html">Century of self</a></li></ol></li><li class="chapter-item "><a href="../contribute/follow.html">Follow</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../contribute/follow.html">Follow</a></li><li class="chapter-item "><a href="../contribute/contribute.html">Contribute</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Earth Regenerator</h1>
+
+                    <div class="right-buttons">
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="twin-user-journeys"><a class="header" href="#twin-user-journeys">Twin User Journeys</a></h1>
+<h2 id="a-game-of-tennis"><a class="header" href="#a-game-of-tennis">A game of tennis</a></h2>
+<p><img src="img/tennis.png" alt="" /></p>
+<p>Imagine wanting to play a game of tennis but dreading the coordination required to make it happen. With your digital twin, that entire process becomes a seamless operation.</p>
+<p>All you need to say is, “Hey twin, I would like to play tennis. Can you arrange please?&quot; Your digital twin leaps into action, already aware of your location and where your friends are. It can communicate on your behalf with your friends, using the most appropriate communication method for each one. No need to juggle WhatsApp, Telegram, or SMS; your twin handles it all.</p>
+<p>Next, your digital twin finds a suitable time slot that works for everyone and contacts a tennis center to check for availability. If needed, it might even handle the payment for you, matching it with the agreed dates. This is all happening in the background, saving you the time and hassle.</p>
+<p>Your friends will then be informed through various channels—chat, email, SMS, or through their own digital twins if they have them. They can confirm their participation with a simple response, streamlining the process even further.</p>
+<p>What could normally take you 20 or 30 minutes of back-and-forth coordination now becomes an effortless task, taking only a couple of seconds. Your digital twin turns the tedious task of coordination into an efficient and enjoyable experience. It's more than convenience; it's like having a personal assistant that understands you and your needs, working diligently to bring joy and ease into your life.</p>
+<h2 id="paying-money"><a class="header" href="#paying-money">Paying Money</a></h2>
+<p><img src="img/money.png" alt="" /></p>
+<p>A seamless, frictionless payment process is one of the straightforward yet impactful applications of using a digital twin. Imagine a situation where you've forgotten to pay your friend Rob and want to settle the debt. In today's world, that might involve several steps, such as finding out Rob's bank details, determining the currency, dealing with conversion rates if Rob is in another country, and navigating various banking platforms. </p>
+<p>With your twin, this process becomes remarkably simple. You merely tell your twin to pay Rob the desired amount, and it takes care of the rest. It knows what currencies Rob can accept, whether the payment should be digital or fiat, and can even manage multiple blockchains if necessary. It aligns with what you can send with what Rob can receive, converting currencies as needed. Before executing the transaction, your twin provides a summary of the process, including any overheads, and asks for your confirmation. Once approved, the payment is made, and Rob's twin will notify yours when the money has arrived. </p>
+<p>This seemingly simple function illustrates the potential power of digital twins in making our daily lives more efficient. By removing the complexities and potential errors involved in transactions, it streamlines the process, allowing you to focus on what truly matters. Whether paying a friend, managing a business transaction, or handling international funds, the twin acts as an intermediary that not only facilitates the transaction but ensures its accuracy and security. It's another example of how technology can simplify our lives, putting us in control while taking care of the minutiae. It's not just about making payment easier; it's about redefining how we interact with our finances in a digital world.</p>
+<h2 id="feeling-not-so-well"><a class="header" href="#feeling-not-so-well">Feeling not so well</a></h2>
+<p><img src="img/doctor_cloud.png" alt="" /></p>
+<p>Feeling ill and far from home can be a distressing experience, but your digital twin is there to help you navigate it. Imagine you've just traveled from Paris to Zanzibar and you're not feeling well. Nausea, pain, cramps, and diarrhea have left you feeling weak and worried.</p>
+<p>You can reach out to your twin with a simple message: &quot;Hey twin, I don't feel well. I'm nauseous, I just traveled from Paris to Zanzibar, and I've been here for two days. I haven't been able to eat much, but the last thing I ate was some fish on the plane. I have cramps, and I have some diarrhea, and I really feel very, very weak. I'm a little bit worried now. Should I go to a doctor?&quot;</p>
+<p>Your twin, powered by a global AI network, immediately begins to gather information, asking you for specific symptoms to better understand your condition. It can then offer you choices tailored to your needs: Would you like to see a doctor online, or visit a nearby 24-hour hospital?</p>
+<p>Should you choose to speak with a doctor online, your twin can handle all the details, finding a slot with a doctor and setting up a video conference for you in just one hour. If you prefer to see a doctor in person, your twin can find a nearby hospital and make a reservation for you. It guides you through the process, providing comfort and convenience in a challenging moment.</p>
+<p>This scenario might sound like science fiction, but with the capabilities of the digital twin, it's a possibility that may not be too far off in the future. It's a powerful example of how the integration of AI, personalized support, and global connectivity can come together to provide unprecedented assistance, even in the most personal and intimate aspects of our lives.</p>
+<h2 id="i-am-hungry"><a class="header" href="#i-am-hungry">I am hungry</a></h2>
+<p><img src="img/i_am_hungry.png" alt="" /></p>
+<p>Imagine you're at home on a dark evening, unwilling to venture outside but feeling the pangs of hunger. You open the fridge only to find it empty. No need to worry, though — your digital twin is there to help.</p>
+<p>With a simple message, you can reach out: &quot;Twin, I'm hungry. Can you find me a pizza? And I would like to have a pizza with salami. But I'm really hungry, so please hurry.&quot;</p>
+<p>Your twin springs into action, scanning the local area for open pizzerias, prioritizing those with 3Bots to ensure a smooth process. Within moments, it identifies an available option and begins coordinating the order.</p>
+<p>Not only does your twin handle the selection and payment, but it even arranges for a taxi driver, who also has a 3Bot, to pick up the pizza and deliver it to your door.</p>
+<p>Within just one minute, your twin returns to you with a complete summary: &quot;I found someone who can pick up the pizza on your behalf, and the pizza would come from this place, it would cost that much, and this is the description of the pizza. It would cost you 12 EUR, and you would probably have it within 30 minutes.&quot; All that's left for you to do is agree.</p>
+<p>In a process that might have taken significant time and effort, your twin has handled everything. Within 30 minutes, your beloved pizza is in your hands, all thanks to the seamless, intuitive interaction with your digital companion.</p>
+<p>This scenario illustrates the convenience and responsiveness that the digital twin brings to even the simplest daily tasks. It showcases how AI technology can be integrated into our lives, acting on our behalf to fulfill our needs with efficiency and precision.</p>
+<h2 id="colaboration-between-developers"><a class="header" href="#colaboration-between-developers">Colaboration between Developers.</a></h2>
+<p><img src="img/colab.png" alt="" /></p>
+<p>You realize you need developers for your software development project. You already have some in mind, but you need to formalize the collaboration.</p>
+<ol>
+<li>
+<p><strong>Initiating Collaboration</strong>:  You reach out to your digital twin: &quot;Hey twin, can you create a circle in which we are going to coordinate our development work. In that circle, please find the developers I found yesterday with the name Caroline, Tim, and Juma.&quot;</p>
+</li>
+<li>
+<p><strong>Negotiating Terms</strong>: You set the parameters for collaboration: &quot;Can you connect them to this circle and see if we can find an agreement to collaborate? I am willing to pay up to 3000 USD a month. If they agree, we want to have a digital agreement between our respective companies and set up digital wallets.&quot;</p>
+</li>
+<li>
+<p><strong>Simplifying the Hiring Process</strong>: Unlike traditional hiring, where payroll, contracts, and legal obligations take up a significant amount of time and resources, your twin can facilitate a short-term agreement effortlessly.</p>
+</li>
+<li>
+<p><strong>Setting Up Collaboration Circle</strong>: Your twin sets up the collaboration circle, and each collaborator's twin (or they are invited to get a twin if they don't have one) becomes part of it. This allows everyone to collaborate both financially and task-wise within the circle.</p>
+</li>
+<li>
+<p><strong>Defining Milestones and Tasks</strong>: As the coordinator, you define the project's milestones, tasks, and priorities. You can hold video conferences, collaborate seamlessly, and everyone's digital twin keeps track of what needs to be done.</p>
+</li>
+<li>
+<p><strong>Automatic Payments and Flexibility</strong>: Payments are handled automatically, with full transparency and no friction. There's flexibility in the collaboration, and if for whatever reason the partnership needs to end, it can be done without liability.</p>
+</li>
+<li>
+<p><strong>Transparency and Efficiency</strong>: The use of digital twins creates a loose but strongly connected link between all parties involved. It ensures full transparency and eliminates the traditional complexities of collaboration, hiring, and project management.</p>
+</li>
+</ol>
+<p>By leveraging the power of digital twins, the entire process of finding, negotiating, and collaborating with developers becomes streamlined and efficient. </p>
+<p>It breaks down the barriers of traditional employment and introduces a new era of flexible and transparent professional collaboration. This scenario showcases the potential of the digital twin technology to revolutionize how businesses operate and how professionals work together.</p>
+<h2 id="a-more-complicated-usecase-our-football-clubhouse"><a class="header" href="#a-more-complicated-usecase-our-football-clubhouse">A more complicated usecase: our football clubhouse</a></h2>
+<p>Imagine you're a co-founder of a football club, and you decide it's time to build a clubhouse. Traditionally, this would be a complicated and lengthy process, involving bank accounts, paperwork, and perhaps even the creation of a not-for-profit organization. The governance and fundraising would take significant time and effort.</p>
+<p>With the digital twin technology, however, the process becomes seamless and efficient. Here's how it unfolds:</p>
+<ol>
+<li>
+<p><strong>Initiating the Fundraising Circle</strong>: You simply speak to your twin: &quot;Hey twin, I would like to create a circle. Can you please add my friends Sascha, Sam, Veronique, and Jeff to this group please? Can you ask them if they are willing to participate in a circle where we will manage assets for the creation of our new clubhouse for the football club?&quot;</p>
+</li>
+<li>
+<p><strong>Setting the Rules</strong>: You set clear governance guidelines with your twin: &quot;If they agree, can you please make it so that always 70% of us need to vote positively on every proposal. I want the money to be held in physical gold.&quot;</p>
+</li>
+<li>
+<p><strong>Communicating the Project</strong>: Your twin takes charge of informing members and initiating the crowdfunding: &quot;And can you then please, if we find consensus, let our members know that we are going to develop a new clubhouse and that if they want to, they can participate in our crowdfunding and co-own the new clubhouse.&quot;</p>
+</li>
+<li>
+<p><strong>Creating a Human Chain</strong>: Behind the scenes, your twin creates what's called a &quot;human chain,&quot; akin to a blockchain but consisting of humans. This transparent mechanism allows the group to manage money, make decisions, communicate, and oversee the entire project.</p>
+</li>
+<li>
+<p><strong>Ongoing Management</strong>: The twins handle everything from task prioritization to decision-making, communicating amongst themselves to keep everything on track.</p>
+</li>
+</ol>
+<p>What might have been a cumbersome and time-consuming process is now streamlined and efficient. It may sound like science fiction, but it's a tangible possibility with the power of digital twins. This approach not only saves time but opens up new opportunities for collaboration, transparency, and community-driven initiatives. It's a vivid illustration of how technology can transform the way we organize and achieve our collective goals.</p>
+<h2 id="far-future"><a class="header" href="#far-future">Far future?</a></h2>
+<p>What we've described through these various use cases might appear to be a leap into a distant future, but the reality is much closer than it seems. </p>
+<p>Leveraging the power of a digital twin doesn't mean surrendering control; in fact, it puts you more in control of your digital life. </p>
+<p>Whether it's organizing a sporting event, seeking medical advice, ordering a meal, fundraising for a community project, or collaborating on professional endeavors, the twin can act as your personal superhero. </p>
+<p>It can automate, streamline, and enhance various aspects of your daily life, often performing tasks in a fraction of the time it would take you manually. While the early stages of this technology might still require some human input and might not be as seamless as envisioned here, the foundation is already being laid. The journey towards this innovative future is not just a possibility but a very tangible reality. </p>
+<p>It's a future where your digital twin stands by your side, ready to assist, and making your life simpler, more efficient, and more connected. It's not just about technological advancement; it's about enhancing human potential and making technology work for us in ways we've never imagined before. </p>
+<blockquote>
+<p>The future of the digital twin is here, and it's just waiting for us to embrace it.</p>
+</blockquote>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../digitaltwin/how_does_it_work.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../inspiration/inspiration.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../digitaltwin/how_does_it_work.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../inspiration/inspiration.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../mermaid.min.js"></script>
+        <script src="../mermaid-init.js"></script>
+
+
+    </div>
+    </body>
+</html>

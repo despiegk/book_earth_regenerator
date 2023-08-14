@@ -2,10 +2,11 @@
 
 ## We build on a successful track record
 
-![](img/incubait_past.png)
+![](img/incubaid_past.png)
 
 Our team has built some of the world’s most advanced Internet and cloud technologies that were later acquired by some of the biggest names in the space for a cumulated +USD 600 million.
 
+![](img/team_records.png)
 
 ## We are value driven
 

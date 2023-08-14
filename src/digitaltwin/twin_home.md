@@ -8,3 +8,5 @@
 - [SuperHuman](superhuman.md)
 - [Reserve Now](twin_act_now.md)
 - [About Us](who_are_we.md)
+- [How does it Work](how_does_it_work.md)
+- [User Journeys](twin_use_cases.md)
