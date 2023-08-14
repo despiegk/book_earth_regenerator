@@ -12,6 +12,10 @@
   - [Regenerate Mother Earth](solutions/regenerate_earth.md)
   - [Currencies of the Future](money/currencies_future.md)
   - [Regenerative City Simulator](solutions/regenerative_city_simulator.md)
+- [Digital Twin Superhuman](digitaltwin/twin_home.md)
+  - [Intro](digitaltwin/twin_intro.md)
+  - [SuperHuman](digitaltwin/superhuman.md)
+  - [Reserve Now](digitaltwin/twin_act_now.md)
 - [Inspiration](inspiration/inspiration.md)
   - [Bernard Lietaer](inspiration/bernard_lietaer.md)
   - [Four Horsemen](inspiration/four_horsemen.md)
@@ -19,3 +23,4 @@
 - [Follow](contribute/follow.md)
   - [Follow](contribute/follow.md)
   - [Contribute](contribute/contribute.md)
+

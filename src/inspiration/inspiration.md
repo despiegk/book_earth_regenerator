@@ -5,3 +5,7 @@
 - [Bernard Lietaer](bernard_lietaer.md)
 - [Four Horsemen](four_horsemen.md)
 - [Century of self](century_of_self.md)
+
+
+This book can be found on [http://book.kristof.life](http://book.kristof.life).
+

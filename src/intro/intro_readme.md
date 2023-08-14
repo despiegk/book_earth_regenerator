@@ -42,3 +42,6 @@ With this book our attempt is to set the stage for an exploration of the complex
 
 
 > This book is written in a dense format, akin to source code, with numerous concepts packed inside that may require further explanation. As such, some readers might find the book challenging to read.
+
+
+Book can be found on [http://book.kristof.life](http://book.kristof.life).

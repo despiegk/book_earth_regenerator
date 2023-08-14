@@ -15,3 +15,9 @@ I also wrote some articles on medium:
 ## The Future
 
 Soon I will be switching to a federated chat solution, but for now I use Telegram.
+
+## This Book
+
+This book can be found on [http://book.kristof.life](http://book.kristof.life).
+
+
