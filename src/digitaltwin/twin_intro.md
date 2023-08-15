@@ -11,9 +11,7 @@ A digital twin is like a computerized buddy that reflects who you are. It's not 
 
 ## You Own It
 
-What's really special about your digital twin is that you own it. It's not controlled by big companies or the government; it's all yours. That means you're in charge of how it looks and acts, and what information it knows about you.
-
-Because you own it, you have to take good care of it. You need to make sure it stays safe and really shows who you are.
+What's really special about your digital twin is that you own it. It's not controlled by big companies or the government; it's all yours. That means you're in charge of how it looks and acts, and what information it knows about you and which information is shared to others.
 
 ## More Than Just You
 
@@ -23,7 +21,9 @@ In a world where our information is often used by others, the digital twin gives
 
 ## Don't be a product
 
-In today's digital landscape, our personal information, preferences, and behaviors are often treated as commodities. Large corporations like Google, Facebook, and Amazon amass vast amounts of data about us. These details are analyzed, packaged, and often sold to advertisers or used to target us with personalized marketing. In essence, we, the users, have become the product. Our individuality is distilled into data points, our privacy eroded, and our autonomy over our digital selves weakened.
+In today's digital landscape, our personal information, preferences, and behaviors are often treated as commodities. 
+
+Large corporations like Google, Facebook, and Amazon amass vast amounts of data about us. These details are analyzed, packaged, and often sold to advertisers or used to target us with personalized marketing. In essence, we, the users, have become the product. Our individuality is distilled into data points, our privacy eroded, and our autonomy over our digital selves weakened.
 
 The digital twin concept fundamentally challenges this paradigm.
 
