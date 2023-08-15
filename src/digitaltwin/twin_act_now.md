@@ -13,7 +13,7 @@ With 100,000 superheroes available for reservation, you can take control of your
 
 **How to Reserve Your Superhero:**
 
-- **Price**: For the first 100,000 superheroes, the price is set at 1,000 euros, with a monthly fee of 20 euros starting when the Superhero solution is active.
+- **Price**: For the first 100,000 superheroes, the price is set at 1,000 euros, with a monthly fee of 10 euros starting when the Superhero solution is active.
 - **Availability**: The opportunity is limited to the first 100,000 individuals ready to step into the digital future at this price.
 - **Impact**: Say goodbye to digital annoyances and embrace a life of increased free time, productivity, and purpose. 
 
