@@ -4,7 +4,7 @@
 
 ![](img/incubaid_past.png)
 
-Our team has built some of the world’s most advanced Internet and cloud technologies that were later acquired by some of the biggest names in the space for a cumulated +USD 600 million.
+Our team has built some of the world’s most advanced Internet and cloud technologies that were later acquired by some of the biggest names in the space.
 
 ![](img/team_records.png)
 
