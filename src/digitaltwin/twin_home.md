@@ -1,8 +1,15 @@
 ![](img/twin_home.png)
 
-## Superhuman helps us to save time.
+## Lets become Superhuman thanks to our Digital Twin.
 
-The most valuable asset in our existence is time - a finite, irreplaceable commodity that governs every aspect of our lives. The digital twin offers a profound solution by reshaping how we spend our time, with whom, and where.
+The twin allows us to:
+
+- become smarter 
+- collaborate better
+- focus on things which matter
+- win time
+
+The most valuable asset in our existence is time - a finite, irreplaceable commodity that governs every aspect of our lives. 
 
 Time is often wasted on mundane tasks or engaged in activities that don't resonate with our true selves. Imagine if our digital twins could handle some of these tasks for us, freeing up time to spend on what we truly love. These virtual selves, being a reflection of our interests, passions, and skills, could navigate the digital world on our behalf, making decisions in alignment with our values and preferences.
 
@@ -14,7 +21,9 @@ This new paradigm shifts our perspective on time management and personal fulfill
 
 - [Intro](twin_intro.md)
 - [SuperHuman](superhuman.md)
-- [Reserve Now](twin_act_now.md)
-- [About Us](who_are_we.md)
-- [How does it Work](how_does_it_work.md)
 - [User Journeys](twin_use_cases.md)
+
+<!-- - [Reserve Now](twin_act_now.md) -->
+<!-- - [About Us](who_are_we.md)
+- [How does it Work](how_does_it_work.md)
+- [User Journeys](twin_use_cases.md) -->

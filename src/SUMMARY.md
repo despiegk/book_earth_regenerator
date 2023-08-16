@@ -16,9 +16,6 @@
   - [Intro](digitaltwin/twin_intro.md)
   - [SuperHuman](digitaltwin/superhuman.md)
   - [User Journeys](digitaltwin/twin_use_cases.md)
-  - [Reserve Now](digitaltwin/twin_act_now.md)
-  - [About Us](digitaltwin/who_are_we.md)
-  - [How does IT Work](digitaltwin/how_does_it_work.md)
 - [Inspiration](inspiration/inspiration.md)
   - [Bernard Lietaer](inspiration/bernard_lietaer.md)
   - [Four Horsemen](inspiration/four_horsemen.md)
@@ -27,3 +24,6 @@
   - [Follow](contribute/follow.md)
   - [Contribute](contribute/contribute.md)
 
+  <!-- - [Reserve Now](digitaltwin/twin_act_now.md)
+  - [About Us](digitaltwin/who_are_we.md)
+  - [How does IT Work](digitaltwin/how_does_it_work.md) -->
