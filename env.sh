@@ -1,1 +1,1 @@
-export NAME='earth regenerator'
+export NAME='earth_regenerator'
