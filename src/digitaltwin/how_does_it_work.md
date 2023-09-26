@@ -1,9 +1,10 @@
 
-![](img/how_work.png)
-
-# How Does IT Work?
-
+<!-- ![](img/how_work.png) -->
 ![](img/architecture_TF_twin.png)
+
+# Technical Architecture?
+
+
 
 - **3Bots as Digital Twins**: 3Bots are the digital counterparts to each individual, and every person owns one unique digital twin.
 - **Hosted on ThreeFold Internet Infrastructure**: Each digital twin, or 3Bot, is hosted on the ThreeFold Internet Infrastructure layer, ensuring a robust and secure foundation.
